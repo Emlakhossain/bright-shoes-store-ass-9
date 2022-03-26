@@ -19,3 +19,15 @@
     border-radius: 20px;
     
 }
+@media (max-width:600px) {
+    .blog-container{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+}
+@media (max-width:768px) {
+    .blog-container{
+        grid-template-columns: 2fr;
+        align-items: center;
+    }
+}
