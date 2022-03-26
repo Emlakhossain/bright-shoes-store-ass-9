@@ -1,0 +1,24 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    background-color: darkslategray;
+    height: 100px;
+}
+nav img{
+    height: 120px;
+    width: 120px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: orange;
+}
