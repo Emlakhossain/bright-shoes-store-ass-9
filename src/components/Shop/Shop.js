@@ -88,7 +88,6 @@ const Shop = () => {
     ];
     const [cart, setCart] = useState([]);
     const handleAddToCart = (product) => {
-        console.log(product)
         const newCart = [...cart, product];
         setCart(newCart);
 
@@ -103,9 +102,11 @@ const Shop = () => {
                         handleAddToCart={handleAddToCart}
                     ></Product>)
                 }
+
             </div>
             <div className='cart-container'>
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart}
+                ></Cart>
             </div>
         </div>
     );
